@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.naufalsyafiqhambali_f55121035.aplikasi_uts">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="F55121035-KATALOG FILM"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.aplikasi_uts"
+        tools:targetApi="31">
+        <activity
+            android:name="com.naufalsyafiqhambali_f55121035.aplikasi_uts.DetailMovie"
+            android:exported="false" />
+        <activity
+            android:name="com.naufalsyafiqhambali_f55121035.aplikasi_uts.ListMovie"
+            android:exported="false" />
+        <activity
+            android:name="com.naufalsyafiqhambali_f55121035.aplikasi_uts.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
